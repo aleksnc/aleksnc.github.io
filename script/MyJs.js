@@ -18,11 +18,11 @@ function pageGET() {
             break;
 
         case 'login.html':
-            appendPage('_login.html');
+            appendPage('login.html');
             break;
 
         case 'account.html':
-            appendPage('_account.html');
+            appendPage('account.html');
             break;
 
         case 'maps.html':
