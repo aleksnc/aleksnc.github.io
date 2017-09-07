@@ -10,19 +10,19 @@ function pageGET() {
 
     switch (pathName) {
         case 'index.html':
-            appendPage('main.html', true);
+            appendPage('_main.html', true);
             break;
 
         case 'registration.html':
-            appendPage('registration.html', true);
+            appendPage('_registration.html', true);
             break;
 
         case 'login.html':
-            appendPage('login.html');
+            appendPage('_login.html');
             break;
 
         case 'account.html':
-            appendPage('account.html');
+            appendPage('_account.html');
             break;
 
         case 'maps.html':
@@ -63,7 +63,7 @@ function appendPage(e) {
     }
 
     $.get(
-        "/exp/template/" + e,
+        "/template/" + e,
         onAjaxSuccess
     );
 
