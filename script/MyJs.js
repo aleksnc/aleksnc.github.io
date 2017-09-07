@@ -10,44 +10,44 @@ function pageGET() {
 
     switch (pathName) {
         case 'index.html':
-            appendPage('_main.html', true);
+            appendPage('main.html', true);
             break;
 
         case 'registration.html':
-            appendPage('_registration.html', true);
+            appendPage('registration.html', true);
             break;
 
         case 'login.html':
-            appendPage('_login.html');
+            appendPage('login.html');
             break;
 
         case 'account.html':
-            appendPage('_account.html');
+            appendPage('account.html');
             break;
 
         case 'maps.html':
-            appendPage('_maps.html');
+            appendPage('maps.html');
             break;
 
 
         case 'settings.html':
-            appendPage('_settings.html');
+            appendPage('settings.html');
             break;
 
         case 'messages.html':
-            appendPage('_messages.html');
+            appendPage('messages.html');
             break;
 
         case 'message.html':
-            appendPage('_message.html');
+            appendPage('message.html');
             break;
 
         case 'search.html':
-            appendPage('_search.html');
+            appendPage('search.html');
             break;
 
         default:
-            appendPage('_main.html', true);
+            appendPage('main.html', true);
             break;
     }
 }
