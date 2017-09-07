@@ -10,11 +10,11 @@ function pageGET() {
 
     switch (pathName) {
         case 'index.html':
-            appendPage('_main.html', true);
+            appendPage('main.html', true);
             break;
 
         case 'registration.html':
-            appendPage('_registration.html', true);
+            appendPage('registration.html', true);
             break;
 
         case 'login.html':
